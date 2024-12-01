@@ -385,7 +385,7 @@ html, body {
     font-weight: 400;
     text-align: center;
     width: 100%;
-    margin-top: 10px; /* Adjust this value to control the space between the image and the description */
+    margin-top: 10px; 
   }
   
   /* Our Achievements Section */
@@ -401,4 +401,42 @@ html, body {
     top: 390px;
     width: 500px;
   }
+
+  /* Image Styling - Align images properly side by side in desktop view */
+.achievement-images_hp {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 200px;
+    padding: 0 35px; 
+  }
   
+  .image-container_hp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%; 
+  }
+  
+  .picture1_hp,
+  .picture2_hp {
+    object-fit: contain; 
+    width: 100%; 
+    height: auto; 
+    margin-top: 20px; 
+    aspect-ratio: 1 / 1; 
+  }
+  
+  /* Footer Section */
+  .footer-section_hp {
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1); 
+    margin-top: 15px; 
+  }
