@@ -1188,7 +1188,7 @@ body {
     top: 190px;
     font-size: 16px;
     z-index: 8;
-    background: rgb(255, 0, 0);
+    background: rgb(rgba(white));
     padding: 10px 0;
     width: 100%;
   }

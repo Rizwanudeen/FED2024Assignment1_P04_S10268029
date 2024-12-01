@@ -5,14 +5,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const navButtons = document.querySelectorAll('.nav-item_index, .nav-item_hp, .nav-item_merch, .nav-item_socials');
     
     console.log("Found buttons:", navButtons);
-});
 
-navButtons.forEach(button => {
-    button.addEventListener('click', (e) => {
-        e.preventDefault();
-        console.log("Button clicked:", button.textContent);
-        const targetUrl = button.parentElement.href;
-        showNavigationMessage(button.textContent, targetUrl);
+
+    navButtons.forEach(button => {
+        button.addEventListener('click', (e) => {
+            e.preventDefault();
+            console.log("Button clicked:", button.textContent);
+            const targetUrl = button.parentElement.href;
+            showNavigationMessage(button.textContent, targetUrl);
+        });
     });
 });
 
@@ -26,11 +27,11 @@ function showNavigationMessage(pageName, targetUrl) {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(0, 0, 0, 0.85);
         color: white;
-        padding: 20px 40px;
-        border-radius: 8px;
-        font-size: 18px;
+        padding: 40px 60px;
+        border-radius: 10px;
+        font-size: 22px;
         z-index: 9999;
     `;
 
@@ -40,5 +41,5 @@ function showNavigationMessage(pageName, targetUrl) {
     setTimeout(() => {
         document.body.removeChild(message);
         window.open(targetUrl, '_blank');
-    }, 350);
+    }, 500);
 }
