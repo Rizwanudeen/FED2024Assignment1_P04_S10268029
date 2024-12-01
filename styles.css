@@ -343,4 +343,62 @@ html, body {
     font-weight: 400;
   }
   
+  /* Section (Centering Title and Description) */
+.section_hp {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 60px 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+    position: absolute; /* Your original position */
+    left: 50%;
+    transform: translateX(-50%);
+    top: 150px; /* Fixed at 150px from top */
+  }
+  
+  .container_hp {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .title_hp {
+    color: #ffffff;
+    font-family: "Roboto-Bold", sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    width: 100%;
+  }
+  
+  .description_hp {
+    color: #ffffff;
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px; /* Adjust this value to control the space between the image and the description */
+  }
+  
+  /* Our Achievements Section */
+  .our-achievements_hp {
+    color: #000000;
+    text-align: left;
+    font-family: "Roboto-Bold", sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    position: absolute;
+    left: 71px;
+    top: 390px;
+    width: 500px;
+  }
   
