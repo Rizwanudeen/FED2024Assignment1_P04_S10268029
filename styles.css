@@ -1146,4 +1146,38 @@ body {
         margin-top: 120px;
         width: 100%;
       }
+      .rectangle_socials,
+      .rectangle2_socials,
+      .rectangle3_socials,
+      .rectangle4_socials {
+        position: relative;
+        width: 90%;
+        margin: 10px auto;
+        left: 0;
+        top: 0;
+      }
+      
+      .rectangle_socials {
+        margin-top: 130px;
+      }
+      
+      .rectangle2_socials,
+      .rectangle3_socials,
+      .rectangle4_socials {
+        margin-top: 20px;
+      }
+      
+      .social-logo_socials {
+        width: 30px;
+        height: 30px;
+      }
+      
+      .button-content_socials {
+        gap: 8px;
+      }
+      
+      .social-name_socials {
+        font-size: 18px;
+      }
+      
 }
