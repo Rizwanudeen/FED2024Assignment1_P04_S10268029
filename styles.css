@@ -745,3 +745,11 @@ body {
     margin-top: 20px;
   }
   
+/* Mobile Adjustments - Layout */
+@media (max-width: 768px) {
+    body {
+      overflow-y: auto;
+      height: 100%;
+    }
+  }
+  
