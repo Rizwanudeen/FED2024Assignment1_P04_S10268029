@@ -480,5 +480,17 @@ html, body {
         font-size: 20px;
       }
 
+      .section_hp {
+        padding: 15px 10px;
+        margin-top: 0px;
+      }
+    
+      .title_hp {
+        font-size: 24px;
+      }
+    
+      .description_hp {
+        font-size: 14px;
+      }
 }
   
