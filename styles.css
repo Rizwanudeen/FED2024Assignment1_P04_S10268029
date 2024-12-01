@@ -622,3 +622,31 @@ body {
     color: white;
   }
   
+  /* Main Content Section */
+.desktop-merch_merch {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 160px auto 40px;
+    padding: 0 20px;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .container_merch {
+    margin-bottom: 20px;
+  }
+  
+  .title_merch {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .description_merch {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
