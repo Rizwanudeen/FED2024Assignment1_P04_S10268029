@@ -505,5 +505,23 @@ html, body {
         font-size: 14px;
         margin: 5px 0px; /* Adjust the spacing between the text elements */
       }
+
+      .picture1_hp, .picture2_hp {
+        width: 110%; /* Keep images at 45% width, like the original desktop size */
+        height: auto;
+        margin-top: 150px; /* Adjust space between content and images */
+        aspect-ratio: 1 / 1; /* Maintain square aspect ratio */
+      }
+    
+      .image-container_hp {
+        width: 100%; /* Ensure the image container takes up the full width */
+      }
+    
+      /* Text Below the Images */
+      .picture1_hp + .description_hp,
+      .picture2_hp + .description_hp {
+        text-align: center;
+        position: relative;
+        top: 10px;
+      }
 }
-  
