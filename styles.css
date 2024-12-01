@@ -549,3 +549,45 @@ body {
     box-sizing: border-box;
   }
   
+/* Top Bar */
+.top-bar_merch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.12);
+    z-index: 20;
+  }
+  
+  .logo_merch {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .club-name_merch {
+    color: #000000;
+    font-family: "Roboto-Medium", sans-serif;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 500;
+    flex: 1;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .navigation2_merch {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .teams_merch,
+  .schedule_merch {
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
