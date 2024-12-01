@@ -825,3 +825,31 @@ body {
     object-fit: cover;
   }
   
+  .text-content_merch {
+    position: relative;
+    top: 40px;
+    padding: 8px 10px;
+    text-align: center;
+  }
+
+  .text-content2_merch {
+    position: relative;
+    top: 31px;
+    padding: 8px 10px;
+    text-align: center;
+  }
+
+  .text-content3_merch {
+    position: relative;
+    top: 10px;
+    padding: 8px 10px;
+    text-align: center;
+  }
+
+  .title_merch {
+    font-size: 32px;
+  }
+
+  .description_merch {
+    font-size: 14px;
+  }
