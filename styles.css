@@ -387,7 +387,7 @@ html, body {
     width: 100%;
     margin-top: 10px; 
   }
-  
+
   /* Our Achievements Section */
   .our-achievements_hp {
     color: #000000;
@@ -440,3 +440,26 @@ html, body {
     box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1); 
     margin-top: 15px; 
   }
+
+  /* Mobile-Specific Adjustments for Navigation Bar */
+@media (max-width: 768px) {
+    .navigation_hp {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #ffffff;
+      z-index: 10;
+      padding: 10px 20px;
+      justify-content: space-evenly;
+      gap: 10px;
+    }
+  
+    .nav-item_hp {
+      padding: 8px 16px;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+}
+  
