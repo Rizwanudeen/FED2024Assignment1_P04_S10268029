@@ -1179,5 +1179,24 @@ body {
       .social-name_socials {
         font-size: 18px;
       }
+      .footer-section_socials {
+        padding: 20px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 20px;
+        font-size: 11px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 5;
+      }
+      
+      .contact-us_socials,
+      .about_socials,
+      .privacy-policy_socials {
+        width: auto;
+        bottom: 30;
+      }
       
 }
