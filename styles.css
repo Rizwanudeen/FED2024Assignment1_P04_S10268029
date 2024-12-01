@@ -293,3 +293,54 @@ html, body {
     transform: scale(0.80);
   }
   
+  /* Top Bar */
+.top-bar_hp {
+    background: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.12);
+  }
+  
+  .logo_hp {
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+  
+  .club-name_hp {
+    color: #000000;
+    font-family: "Roboto-Medium", sans-serif;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 500;
+    flex: 1;
+    text-align: left;
+  }
+  
+  .navigation2_hp {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .teams_hp, .schedule_hp {
+    color: #000000;
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  
+  
