@@ -927,3 +927,44 @@ body {
      max-width: 1200px;
     }
     
+/* Social Media Buttons */
+.rectangle_socials, 
+.rectangle2_socials, 
+.rectangle3_socials, 
+.rectangle4_socials {
+ background: #d9d9d9;
+ width: 25%;
+ min-width: 280px;
+ max-width: 332px;
+ height: 51px;
+ position: fixed;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: none;
+ border-radius: 8px;
+ cursor: pointer;
+ transition: all 0.3s ease;
+}
+
+.rectangle_socials { left: 20%; top: 370px; }
+.rectangle2_socials { left: 20%; top: 480px; }
+.rectangle3_socials { right: 20%; top: 370px; }
+.rectangle4_socials { right: 20%; top: 480px; }
+
+/* Button Hover Effects */
+.rectangle_socials:hover, 
+.rectangle2_socials:hover, 
+.rectangle3_socials:hover, 
+.rectangle4_socials:hover {
+ background: #c0c0c0;
+ transform: scale(1.05);
+}
+
+/* Button Active Effects */
+.rectangle_socials:active,
+.rectangle2_socials:active,
+.rectangle3_socials:active,
+.rectangle4_socials:active {
+ transform: scale(0.95);
+}
