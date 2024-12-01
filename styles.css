@@ -716,3 +716,21 @@ body {
   z-index: 10;
   border-bottom-right-radius: 15px;
 }
+
+/* Text Content for Descriptions */
+.text-content_merch,
+.text-content2_merch,
+.text-content3_merch {
+  text-align: center;
+  padding: 10px;
+}
+
+.item_merch {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.desc_merch {
+  font-size: 14px;
+  font-weight: 400;
+}
