@@ -20,7 +20,7 @@ body {
   
   /* Welcome Message */
 .welcome-message_index {
-    background: rgba(0, 0, 0, 0.6);
+    background: #8eb6e6;
     padding: 55px 170px;
     display: flex;
     flex-direction: row;
@@ -46,7 +46,7 @@ body {
   }
   
   .title_index {
-    color: #ffffff;
+    color: #000000;
     font-family: "Roboto-Bold", sans-serif;
     font-size: 40px;
     line-height: 48px;
@@ -55,7 +55,7 @@ body {
   }
   
   .description_index {
-    color: #ffffff;
+    color: #000000;
     font-family: "Roboto-Regular", sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -345,7 +345,7 @@ html, body {
   
   /* Section (Centering Title and Description) */
 .section_hp {
-    background: rgba(0, 0, 0, 0.6);
+    background: #8eb6e6;
     padding: 60px 170px;
     display: flex;
     flex-direction: column;
@@ -369,7 +369,7 @@ html, body {
   }
   
   .title_hp {
-    color: #ffffff;
+    color: #000000;
     font-family: "Roboto-Bold", sans-serif;
     font-size: 40px;
     line-height: 48px;
@@ -378,7 +378,7 @@ html, body {
   }
   
   .description_hp {
-    color: #ffffff;
+    color: #000000;
     font-family: "Roboto-Regular", sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -545,7 +545,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Roboto-Regular", sans-serif;
-    background: #ffffff;
+    background: #8eb6e6;
     box-sizing: border-box;
   }
   
@@ -624,7 +624,7 @@ body {
   
   /* Main Content Section */
   .desktop-merch_merch {
-    background: #ffffff;
+    background: #8eb6e6;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -664,6 +664,7 @@ body {
   .jersey_merch,
   .ball_merch,
   .socks_merch {
+    background: #fff;
     border-radius: 6px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
