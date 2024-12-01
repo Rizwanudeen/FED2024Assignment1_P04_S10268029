@@ -1105,4 +1105,36 @@ body {
         text-align: left;
       }
       
+      .stay-connected_socials {
+        font-size: 22px;
+        top: 130px;
+        position: fixed;
+        z-index: 8;
+        background: white;
+        padding: 10px 0;
+        width: 100%;
+      }
+      
+      .follow-us-for-news-and-updates_socials {
+        font-size: 11px;
+        position: fixed;
+        bottom: 60px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 7;
+        background: none;
+        padding: 0;
+        width: auto;
+      }
+      
+      .message_socials {
+        position: fixed;
+        top: 190px;
+        font-size: 16px;
+        z-index: 8;
+        background: white;
+        padding: 10px 0;
+        width: 100%;
+      }
+      
 }
