@@ -549,8 +549,8 @@ body {
     box-sizing: border-box;
   }
   
-/* Top Bar */
-.top-bar_merch {
+  /* Top Bar */
+  .top-bar_merch {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -592,7 +592,7 @@ body {
   }
   
   /* Navigation Bar */
-.navigation_merch {
+  .navigation_merch {
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -623,7 +623,7 @@ body {
   }
   
   /* Main Content Section */
-.desktop-merch_merch {
+  .desktop-merch_merch {
     background: #ffffff;
     display: flex;
     flex-direction: column;
@@ -651,7 +651,7 @@ body {
   }
   
   /* Merchandise Section */
-.merchandise-items_merch {
+  .merchandise-items_merch {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -660,83 +660,83 @@ body {
     width: 100%;
   }
   
-    /* Merchandise Items */
-.jersey_merch,
-.ball_merch,
-.socks_merch {
-  border-radius: 6px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  width: 300px;
-  height: 400px;
-  margin: 0;
-  transition: transform 0.3s ease;
-}
-
-/* Hover Effects */
-.jersey_merch:hover,
-.ball_merch:hover,
-.socks_merch:hover {
-  transform: scale(1.15);
-  z-index: 10;
-}
-
-/* Image Section */
-.image_merch,
-.image2_merch,
-.image3_merch {
-  position: relative;
-  background: rgba(217, 217, 217, 0.5);
-  width: 100%;
-  height: 300px;
-}
-
-.jersey_pic_merch,
-.ball_pic_merch,
-.socks_pic_merch {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* Tag (Best Seller) */
-.tag_merch,
-.tag2_merch {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgba(242, 218, 190, 0.468);
-  color: #000;
-  padding: 5px 10px;
-  font-size: 14px;
-  font-weight: bold;
-  z-index: 10;
-  border-bottom-right-radius: 15px;
-}
-
-/* Text Content for Descriptions */
-.text-content_merch,
-.text-content2_merch,
-.text-content3_merch {
-  text-align: center;
-  padding: 10px;
-}
-
-.item_merch {
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.desc_merch {
-  font-size: 14px;
-  font-weight: 400;
-}
-
-/* Footer (Optional) */
-.footer_merch {
+  /* Merchandise Items */
+  .jersey_merch,
+  .ball_merch,
+  .socks_merch {
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 300px;
+    height: 400px;
+    margin: 0;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover Effects */
+  .jersey_merch:hover,
+  .ball_merch:hover,
+  .socks_merch:hover {
+    transform: scale(1.15);
+    z-index: 10;
+  }
+  
+  /* Image Section */
+  .image_merch,
+  .image2_merch,
+  .image3_merch {
+    position: relative;
+    background: rgba(217, 217, 217, 0.5);
+    width: 100%;
+    height: 300px;
+  }
+  
+  .jersey_pic_merch,
+  .ball_pic_merch,
+  .socks_pic_merch {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Tag (Best Seller) */
+  .tag_merch,
+  .tag2_merch {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(242, 218, 190, 0.468);
+    color: #000;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    z-index: 10;
+    border-bottom-right-radius: 15px;
+  }
+  
+  /* Text Content for Descriptions */
+  .text-content_merch,
+  .text-content2_merch,
+  .text-content3_merch {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .item_merch {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .desc_merch {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  /* Footer (Optional) */
+  .footer_merch {
     background: #f8f8f8;
     text-align: center;
     padding: 20px;
@@ -745,111 +745,119 @@ body {
     margin-top: 20px;
   }
   
-/* Mobile Adjustments - Layout */
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
     body {
       overflow-y: auto;
       height: 100%;
     }
-  }
-
-  .desktop-merch_merch {
-    margin-top: 120px;
-    overflow-y: auto;
-    padding-bottom: 40px;
-  }
-
-  .navigation_merch {
-    top: 50px;
-  }
-
-  .navigation_merch {
-    flex-wrap: nowrap;
-    gap: 10px;
-    padding: 10px 20px;
-  }
-
-  .nav-item_merch {
-    padding: 8px 16px;
-    font-size: 12px;
-    width: auto;
-    white-space: nowrap;
-  }
-
-  .top-bar_merch {
-    padding: 10px 5px;
-    flex-wrap: wrap;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-  }
-
-  .logo_merch {
-    width: 35px;
-    height: 35px;
-  }
-
-  .club-name_merch {
-    font-size: 20px;
-    text-align: left;
-  }
-
-  .navigation2_merch {
-    flex-direction: row;
-    gap: 20px;
-  }
-
-  .merchandise-items_merch {
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-  }
-
-  .jersey_merch, 
-  .ball_merch, 
-  .socks_merch {
-    width: 90%;
-    max-width: 350px;
-    aspect-ratio: 3 / 4;
-    margin: 0;
-  }
-
-  .jersey_pic_merch, 
-  .ball_pic_merch {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-  }
-
-  .socks_pic_merch {
-    object-fit: cover;
+  
+    .desktop-merch_merch {
+      margin-top: 120px;
+      overflow-y: auto;
+      padding-bottom: 40px;
+    }
+  
+    .navigation_merch {
+      top: 50px;
+    }
+  
+    .navigation_merch {
+      flex-wrap: nowrap;
+      gap: 10px;
+      padding: 10px 20px;
+    }
+  
+    .nav-item_merch {
+      padding: 8px 16px;
+      font-size: 12px;
+      width: auto;
+      white-space: nowrap;
+    }
+  
+    .top-bar_merch {
+      padding: 10px 5px;
+      flex-wrap: wrap;
+      position: fixed;
+      top: 0;
+      z-index: 1000;
+    }
+  
+    .logo_merch {
+      width: 35px;
+      height: 35px;
+    }
+  
+    .club-name_merch {
+      font-size: 20px;
+      text-align: left;
+    }
+  
+    .navigation2_merch {
+      flex-direction: row;
+      gap: 20px;
+    }
+  
+    .merchandise-items_merch {
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+    }
+  
+    .jersey_merch, 
+    .ball_merch, 
+    .socks_merch {
+      width: 90%;
+      max-width: 350px;
+      aspect-ratio: 3 / 4;
+      margin: 0;
+    }
+  
+    .jersey_pic_merch, 
+    .ball_pic_merch 
+     {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  
+    .socks_pic_merch {
+      object-fit: cover;
+    }
+  
+    .tag_merch, 
+    .tag2_merch {
+      font-size: 12px;
+      padding: 4px 8px;
+    }
+  
+    .text-content_merch {
+      position: relative;
+      top: 40px;
+      padding: 8px 10px;
+      text-align: center;
+    }
+  
+    .text-content2_merch {
+      position: relative;
+      top: 31px;
+      padding: 8px 10px;
+      text-align: center;
+    }
+  
+    .text-content3_merch {
+      position: relative;
+      top: 10px;
+      padding: 8px 10px;
+      text-align: center;
+      }
+    
+  
+    .title_merch {
+      font-size: 32px;
+    }
+  
+    .description_merch {
+      font-size: 14px;
+    }
   }
   
-  .text-content_merch {
-    position: relative;
-    top: 40px;
-    padding: 8px 10px;
-    text-align: center;
-  }
-
-  .text-content2_merch {
-    position: relative;
-    top: 31px;
-    padding: 8px 10px;
-    text-align: center;
-  }
-
-  .text-content3_merch {
-    position: relative;
-    top: 10px;
-    padding: 8px 10px;
-    text-align: center;
-  }
-
-  .title_merch {
-    font-size: 32px;
-  }
-
-  .description_merch {
-    font-size: 14px;
-  }
