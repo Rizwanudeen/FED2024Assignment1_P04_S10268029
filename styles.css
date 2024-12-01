@@ -190,5 +190,35 @@ body {
     .description_index {
       font-size: 14px;
     }
-  }
   
+  
+  /* Mobile-Specific Navigation */
+    .navigation_index {
+        flex-wrap: nowrap;
+        gap: 10px;
+        padding: 10px 20px;
+    }
+  
+    .nav-item_index {
+        padding: 8px 16px;
+        font-size: 12px;
+        width: auto;
+        white-space: nowrap; /* Prevent text from wrapping */
+    }
+
+    .top-bar_index {
+        padding: 10px 5px;
+        flex-wrap: wrap;
+      }
+      
+      .logo_index {
+        width: 35px;
+        height: 35px;
+      }
+      
+      .club-name_index {
+        font-size: 20px;
+        text-align: left;
+      }
+      
+}
