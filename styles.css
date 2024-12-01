@@ -461,5 +461,24 @@ html, body {
       white-space: nowrap;
     }
 
+    .top-bar_hp {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 5px;
+        background-color: #ffffff;
+        z-index: 9;
+      }
+    
+      .logo_hp {
+        width: 35px;
+        height: 35px;
+      }
+    
+      .club-name_hp {
+        font-size: 20px;
+      }
+
 }
   
