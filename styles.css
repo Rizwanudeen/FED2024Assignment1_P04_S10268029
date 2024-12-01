@@ -234,3 +234,29 @@ body {
       }
       
 }
+
+/* Reset margin and padding for body and html */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* General Styling */
+  .desktop-achievements-history_hp,
+  .desktop-achievements-history_hp * {
+    box-sizing: border-box;
+  }
+  
+  .desktop-achievements-history_hp {
+    background: #ffffff;
+    min-height: 100vh;
+    position: relative;
+    overflow-y: auto;
+    flex-grow: 1; /* Ensures it takes up all available space, pushing the footer down */
+  }
+  
