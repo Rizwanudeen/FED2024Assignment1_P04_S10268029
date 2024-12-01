@@ -877,3 +877,53 @@ body {
  flex-direction: column;
  align-items: center;
 }
+
+/* Stay Connected */
+.stay-connected_socials {
+     color: #000000;
+     text-align: center;
+     font-family: "Roboto-Bold", sans-serif;
+     font-size: 40px;
+     line-height: 48px;
+     font-weight: 700;
+     position: fixed;
+     top: 150px;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 100%;
+     max-width: 1200px;
+    }
+    
+    /* Follow Us for Updates */
+    .follow-us-for-news-and-updates_socials {
+     color: #000000;
+     text-align: center;
+     font-family: "Roboto-Regular", sans-serif;
+     font-size: 20px;
+     line-height: 24px;
+     font-weight: 400;
+     position: fixed;
+     bottom: 70px;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 100%;
+     max-width: 1200px;
+     z-index: 7;
+    }
+    
+    /* Message Section */
+    .message_socials {
+     color: #000000;
+     text-align: center;
+     font-family: "Roboto-Regular", sans-serif;
+     font-size: 20px;
+     line-height: 28px;
+     font-weight: 400;
+     position: fixed;
+     top: 280px;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 100%;
+     max-width: 1200px;
+    }
+    
