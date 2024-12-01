@@ -6,3 +6,13 @@ document.addEventListener('DOMContentLoaded', () => {
     
     console.log("Found buttons:", navButtons);
 });
+
+navButtons.forEach(button => {
+    button.addEventListener('click', (e) => {
+        e.preventDefault();
+        console.log("Button clicked:", button.textContent);
+        const targetUrl = button.parentElement.href;
+        showNavigationMessage(button.textContent, targetUrl);
+    });
+});
+
