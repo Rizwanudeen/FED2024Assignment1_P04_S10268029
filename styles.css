@@ -752,4 +752,50 @@ body {
       height: 100%;
     }
   }
+
+  .desktop-merch_merch {
+    margin-top: 120px;
+    overflow-y: auto;
+    padding-bottom: 40px;
+  }
+
+  .navigation_merch {
+    top: 50px;
+  }
+
+  .navigation_merch {
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 10px 20px;
+  }
+
+  .nav-item_merch {
+    padding: 8px 16px;
+    font-size: 12px;
+    width: auto;
+    white-space: nowrap;
+  }
+
+  .top-bar_merch {
+    padding: 10px 5px;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .logo_merch {
+    width: 35px;
+    height: 35px;
+  }
+
+  .club-name_merch {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .navigation2_merch {
+    flex-direction: row;
+    gap: 20px;
+  }
   
