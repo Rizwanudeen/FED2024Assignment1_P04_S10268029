@@ -660,3 +660,26 @@ body {
     width: 100%;
   }
   
+    /* Merchandise Items */
+.jersey_merch,
+.ball_merch,
+.socks_merch {
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 300px;
+  height: 400px;
+  margin: 0;
+  transition: transform 0.3s ease;
+}
+
+/* Hover Effects */
+.jersey_merch:hover,
+.ball_merch:hover,
+.socks_merch:hover {
+  transform: scale(1.15);
+  z-index: 10;
+}
