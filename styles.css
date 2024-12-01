@@ -1,0 +1,20 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    height: 100%;
+    overflow-x: hidden; 
+  }
+  
+  .desktop-home-page_index, .desktop-home-page_index * {
+    box-sizing: border-box;
+  }
+  
+  .desktop-home-page_index {
+    background: #ffffff;
+    min-height: 100vh; 
+    position: relative;
+    overflow-y: auto; 
+    padding-bottom: 20px; 
+  }
+  
