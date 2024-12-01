@@ -865,86 +865,86 @@ body {
  /* General Styling */ 
 .desktop-socials_socials,
 .desktop-socials_socials * {
- box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .desktop-socials_socials {
- background: #ffffff;
- min-height: 100vh;
- width: 100%;
- position: relative;
- display: flex;
- flex-direction: column;
- align-items: center;
+  background: #ffffff;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Stay Connected */
 .stay-connected_socials {
-     color: #000000;
-     text-align: center;
-     font-family: "Roboto-Bold", sans-serif;
-     font-size: 40px;
-     line-height: 48px;
-     font-weight: 700;
-     position: fixed;
-     top: 150px;
-     left: 50%;
-     transform: translateX(-50%);
-     width: 100%;
-     max-width: 1200px;
-    }
-    
-    /* Follow Us for Updates */
-    .follow-us-for-news-and-updates_socials {
-     color: #000000;
-     text-align: center;
-     font-family: "Roboto-Regular", sans-serif;
-     font-size: 20px;
-     line-height: 24px;
-     font-weight: 400;
-     position: fixed;
-     bottom: 70px;
-     left: 50%;
-     transform: translateX(-50%);
-     width: 100%;
-     max-width: 1200px;
-     z-index: 7;
-    }
-    
-    /* Message Section */
-    .message_socials {
-     color: #000000;
-     text-align: center;
-     font-family: "Roboto-Regular", sans-serif;
-     font-size: 20px;
-     line-height: 28px;
-     font-weight: 400;
-     position: fixed;
-     top: 280px;
-     left: 50%;
-     transform: translateX(-50%);
-     width: 100%;
-     max-width: 1200px;
-    }
-    
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  position: fixed;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Follow Us for Updates */
+.follow-us-for-news-and-updates_socials {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  position: fixed;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1200px;
+  z-index: 7;
+}
+
+/* Message Section */
+.message_socials {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: fixed;
+  top: 280px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1200px;
+}
+
 /* Social Media Buttons */
 .rectangle_socials, 
 .rectangle2_socials, 
 .rectangle3_socials, 
 .rectangle4_socials {
- background: #d9d9d9;
- width: 25%;
- min-width: 280px;
- max-width: 332px;
- height: 51px;
- position: fixed;
- display: flex;
- align-items: center;
- justify-content: center;
- border: none;
- border-radius: 8px;
- cursor: pointer;
- transition: all 0.3s ease;
+  background: #d9d9d9;
+  width: 25%;
+  min-width: 280px;
+  max-width: 332px;
+  height: 51px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .rectangle_socials { left: 20%; top: 370px; }
@@ -957,8 +957,8 @@ body {
 .rectangle2_socials:hover, 
 .rectangle3_socials:hover, 
 .rectangle4_socials:hover {
- background: #c0c0c0;
- transform: scale(1.05);
+  background: #c0c0c0;
+  transform: scale(1.05);
 }
 
 /* Button Active Effects */
@@ -966,237 +966,280 @@ body {
 .rectangle2_socials:active,
 .rectangle3_socials:active,
 .rectangle4_socials:active {
- transform: scale(0.95);
+  transform: scale(0.95);
 }
+
+/* Button Content */
+.button-content_socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Social Media Text */
+.social-name_socials {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+/* Social Media Logos */
+.social-logo_socials { width: 40px; height: 40px; }
+.ig-logo_socials { width: 40px; height: 40px; }
+.tiktok-logo_socials { width: 45px; height: 45px; }
+.youtube-logo_socials { width: 80px; height: 62.58px; }
+.twitter-logo_socials { width: 70px; height: 39.38px; }
 
 /* Footer Section */
 .footer-section_socials {
-     padding: 20px;
-     display: flex;
-     flex-direction: row;
-     gap: 40px;
-     align-items: center;
-     justify-content: center;
-     width: 100%;
-     position: fixed;
-     bottom: 0;
-     background: #ffffff;
-    }
-    
-    /* Footer texts */
-    .contact-us_socials, 
-    .about_socials, 
-    .privacy-policy_socials {
-     color: #000000;
-     text-align: center;
-     font-family: "Roboto-Regular", sans-serif;
-     font-size: 16px;
-     line-height: 28px;
-     font-weight: 400;
-    }
-    
-    /* Navigation Bar */
-.navigation_socials {
-     background: #ffffff;
-     display: flex;
-     flex-direction: row;
-     gap: 40px;
-     align-items: center;
-     justify-content: center;
-     width: 100%;
-     max-width: 1440px;
-     padding: 10px 0;
-     position: fixed;
-     top: 80px;
-    }
-    
-    .nav-item_socials {
-     background-color: #f0f0f0;
-     color: #000000;
-     text-align: center;
-     font-family: "Roboto-Regular", sans-serif;
-     font-size: 16px;
-     line-height: 18px;
-     font-weight: 400;
-     padding: 15px 30px;
-     border-radius: 25px;
-     cursor: pointer;
-     transition: all 0.3s ease;
-     white-space: nowrap;
-    }
-    
-    .nav-item_socials:hover {
-     background-color: #007bff;
-     color: white;
-    }
-    
-    .nav-item_socials:active {
-     transform: scale(0.95);
-    }
-    
-    /* Top Bar */
-    .top-bar_socials {
-     background: #ffffff;
-     padding: 20px;
-     display: flex;
-     flex-direction: row;
-     gap: 20px;
-     align-items: center;
-     justify-content: center;
-     height: 80px;
-     position: fixed;
-     right: 0;
-     left: 0;
-     top: 0;
-     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
-    }
-    
-    .logo_socials {
-     border-radius: 100px;
-     width: 40px;
-     height: 40px;
-    }
-    
-    /* Mobile View */
-@media (max-width: 768px) {
-    body { overflow: hidden; }
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: #ffffff;
+}
 
-    .navigation_socials {
-        position: fixed;
-        top: 80px;
-        left: 0;
-        width: 100%;
-        background-color: #ffffff;
-        z-index: 10;
-        padding: 10px 20px;
-        justify-content: space-evenly;
-        gap: 10px;
-      }
-      
-    .nav-item_socials {
-        padding: 8px 16px;
-        font-size: 12px;
-        white-space: nowrap;
-      }
-      
-    .navigation2_socials {
-        flex-direction: row;
-        gap: 20px;
-      }
-    
-    .top-bar_socials {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        padding: 10px 5px;
-        background-color: #ffffff;
-        z-index: 9;
-        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
-      }
-      
-    .logo_socials {
-        width: 35px;
-        height: 35px;
-      }
-      
-    .club-name_socials {
-        font-size: 20px;
-        text-align: left;
-      }
-      
-      .stay-connected_socials {
-        font-size: 22px;
-        top: 130px;
-        position: fixed;
-        z-index: 8;
-        background: white;
-        padding: 10px 0;
-        width: 100%;
-      }
-      
-      .follow-us-for-news-and-updates_socials {
-        font-size: 11px;
-        position: fixed;
-        bottom: 60px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 7;
-        background: none;
-        padding: 0;
-        width: auto;
-      }
-      
-      .message_socials {
-        position: fixed;
-        top: 190px;
-        font-size: 16px;
-        z-index: 8;
-        background: white;
-        padding: 10px 0;
-        width: 100%;
-      }
-      
-      .desktop-socials_socials {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        gap: 10px;
-        margin-top: 120px;
-        width: 100%;
-      }
-      .rectangle_socials,
-      .rectangle2_socials,
-      .rectangle3_socials,
-      .rectangle4_socials {
-        position: relative;
-        width: 90%;
-        margin: 10px auto;
-        left: 0;
-        top: 0;
-      }
-      
-      .rectangle_socials {
-        margin-top: 130px;
-      }
-      
-      .rectangle2_socials,
-      .rectangle3_socials,
-      .rectangle4_socials {
-        margin-top: 20px;
-      }
-      
-      .social-logo_socials {
-        width: 30px;
-        height: 30px;
-      }
-      
-      .button-content_socials {
-        gap: 8px;
-      }
-      
-      .social-name_socials {
-        font-size: 18px;
-      }
-      .footer-section_socials {
-        padding: 20px;
-        flex-direction: row;
-        justify-content: space-evenly;
-        gap: 20px;
-        font-size: 11px;
-        width: 100%;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        z-index: 5;
-      }
-      
-      .contact-us_socials,
-      .about_socials,
-      .privacy-policy_socials {
-        width: auto;
-        bottom: 30;
-      }
-      
+/* Footer Links */
+.contact-us_socials, 
+.about_socials, 
+.privacy-policy_socials {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.contact-us_socials { width: 99px; }
+.about_socials { width: 54px; }
+.privacy-policy_socials { width: 124px; }
+
+/* Navigation Bar */
+.navigation_socials {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1440px;
+  padding: 10px 0;
+  position: fixed;
+  top: 80px;
+}
+
+.nav-item_socials {
+  background-color: #f0f0f0;
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  padding: 15px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.nav-item_socials:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.nav-item_socials:active {
+  transform: scale(0.95);
+}
+
+/* Top Bar */
+.top-bar_socials {
+  background: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+}
+
+.logo_socials {
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+}
+
+.club-name_socials {
+  color: #000000;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 500;
+  flex: 1;
+  text-align: left;
+}
+
+.navigation2_socials {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.teams_socials, 
+.schedule_socials {
+  color: #000000;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  body { overflow: hidden; }
+
+  .navigation_socials {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 10;
+    padding: 10px 20px;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+
+  .nav-item_socials {
+    padding: 8px 16px;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  .navigation2_socials {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .top-bar_socials {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 5px;
+    background-color: #ffffff;
+    z-index: 9;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+  }
+
+  .logo_socials {
+    width: 35px;
+    height: 35px;
+  }
+
+  .club-name_socials {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .stay-connected_socials {
+    font-size: 22px;
+    top: 130px;
+    position: fixed;
+    z-index: 8;
+    background: white;
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  .follow-us-for-news-and-updates_socials {
+    font-size: 11px;
+    position: fixed;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 7;
+    background: none;
+    padding: 0;
+    width: auto;
+  }
+
+  .message_socials {
+    position: fixed;
+    top: 190px;
+    font-size: 16px;
+    z-index: 8;
+    background: rgb(255, 0, 0);
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  .desktop-socials_socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 120px;
+    width: 100%;
+  }
+
+  .rectangle_socials, 
+  .rectangle2_socials, 
+  .rectangle3_socials, 
+  .rectangle4_socials {
+    position: relative;
+    width: 90%;
+    margin: 10px auto;
+    left: 0;
+    top: 0;
+  }
+
+  .rectangle_socials { margin-top: 130px; }
+  .rectangle2_socials, 
+  .rectangle3_socials, 
+  .rectangle4_socials { margin-top: 20px; }
+
+  .social-logo_socials { width: 30px; height: 30px; }
+  .button-content_socials { gap: 8px; }
+  .social-name_socials { font-size: 18px; }
+
+  .footer-section_socials {
+    padding: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    font-size: 11px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+  }
+
+  .contact-us_socials, 
+  .about_socials, 
+  .privacy-policy_socials {
+    width: auto;
+    bottom: 30;
+  }
 }
