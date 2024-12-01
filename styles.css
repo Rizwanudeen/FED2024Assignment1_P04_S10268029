@@ -203,7 +203,7 @@ body {
         padding: 8px 16px;
         font-size: 12px;
         width: auto;
-        white-space: nowrap; /* Prevent text from wrapping */
+        white-space: nowrap; 
     }
 
     .top-bar_index {
@@ -219,6 +219,18 @@ body {
       .club-name_index {
         font-size: 20px;
         text-align: left;
+      }
+      
+      .main-banner_index {
+        width: 100%;
+        margin-top: 230px; 
+        margin-bottom: 20px;
+      }
+      
+      .title2_index {
+        font-size: 14px;
+        top: auto;
+        bottom: 20px;
       }
       
 }
