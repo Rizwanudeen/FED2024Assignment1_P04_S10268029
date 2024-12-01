@@ -798,4 +798,10 @@ body {
     flex-direction: row;
     gap: 20px;
   }
+
+  .merchandise-items_merch {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
   
