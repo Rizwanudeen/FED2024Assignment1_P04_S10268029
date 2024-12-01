@@ -1060,7 +1060,7 @@ body {
     /* Mobile View */
 @media (max-width: 768px) {
     body { overflow: hidden; }
-    
+
     .navigation_socials {
         position: fixed;
         top: 80px;
@@ -1073,15 +1073,36 @@ body {
         gap: 10px;
       }
       
-      .nav-item_socials {
+    .nav-item_socials {
         padding: 8px 16px;
         font-size: 12px;
         white-space: nowrap;
       }
       
-      .navigation2_socials {
+    .navigation2_socials {
         flex-direction: row;
         gap: 20px;
       }
     
+    .top-bar_socials {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 5px;
+        background-color: #ffffff;
+        z-index: 9;
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+      }
+      
+    .logo_socials {
+        width: 35px;
+        height: 35px;
+      }
+      
+    .club-name_socials {
+        font-size: 20px;
+        text-align: left;
+      }
+      
 }
