@@ -650,3 +650,13 @@ body {
     margin-bottom: 20px;
   }
   
+  /* Merchandise Section */
+.merchandise-items_merch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
