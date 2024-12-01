@@ -492,5 +492,18 @@ html, body {
       .description_hp {
         font-size: 14px;
       }
+
+      .our-achievements_hp {
+        font-size: 24px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 50px;
+        width: 100%;
+      }
+    
+      .title2_hp, .subtitle_hp, .subtitle2_hp, .title3_hp {
+        font-size: 14px;
+        margin: 5px 0px; /* Adjust the spacing between the text elements */
+      }
 }
   
